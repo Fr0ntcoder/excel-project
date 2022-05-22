@@ -1,0 +1,22 @@
+{
+  "name": "excel-project",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Frontcoder",
+  "license": "ISC",
+  "homepage": "https://github.com/Fr0ntcoder/excel-project#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
