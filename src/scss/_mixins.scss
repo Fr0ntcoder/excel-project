@@ -1,0 +1,16 @@
+@mixin button($color: green,$hover: red,$fontSize: 16px) {
+    font-size: $fontSize;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: $color;
+    &.active {
+        color: $hover;
+    }
+    &:hover {
+        color: $hover;
+    }
+}
