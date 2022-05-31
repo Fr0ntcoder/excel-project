@@ -13,7 +13,7 @@
         "linebreak-style": 0,
         "indent": "off",
         "comma-dangle": "off",
-        "arrow-parens": "off"
+        /* "arrow-parens": "off" */
     },
     "extends": [
         "eslint:recommended",

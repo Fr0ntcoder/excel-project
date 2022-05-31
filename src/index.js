@@ -1,4 +1,8 @@
-import '/module';
-import './scss/style.scss';
+import './scss/index.scss';
+import {library, dom} from '@fortawesome/fontawesome-svg-core'
+import {fas} from '@fortawesome/free-solid-svg-icons'
+import {far} from '@fortawesome/free-regular-svg-icons'
+import {fab} from '@fortawesome/free-brands-svg-icons'
 
-console.log('Index.js')
+library.add(fas, far, fab);
+dom.i2svg();

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Excel Project</title>
+</head>
+<body>
+    <div id="app">
+        <div class="excel">
+            <div class="excel-header">
+                <input type="text" value="Новая таблица" class="excel-header__input">
+                <div class="excel-header__wrap">
+                    <button class="excel-header__btn">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </button>
+                    <button class="excel-header__btn">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="excel-toolbar">
+                <div class="excel-toolbar__wrap">
+                    <button class="excel-toolbar__btn excel-toolbar__btn--gray">
+                        <i class="fa-solid fa-align-left"></i>
+                    </button>
+                    <button class="excel-toolbar__btn excel-toolbar__btn--gray">
+                        <i class="fa-solid fa-align-center"></i>
+                    </button>
+                    <button class="excel-toolbar__btn excel-toolbar__btn--gray">
+                        <i class="fa-solid fa-align-right"></i>
+                    </button>
+                    <button class="excel-toolbar__btn excel-toolbar__btn--black">
+                        <i class="fa-solid fa-bold"></i>
+                    </button>
+                    <button class="excel-toolbar__btn excel-toolbar__btn--black">
+                        <i class="fa-solid fa-italic"></i>
+                    </button>
+                    <button class="excel-toolbar__btn excel-toolbar__btn--black">
+                        <i class="fa-solid fa-underline"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="excel-formula">
+                <div class="excel-formula__title">fx</div>
+                <input type="text" class="excel-formula__input">
+            </div>
+            <div class="excel-table">
+                <div class="table-row">
+                    <div class="table-row__info"></div>
+                    <div class="table-row__data">
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                        <div class="table-row__column">A</div>
+                        <div class="table-row__column">B</div>
+                        <div class="table-row__column">C</div>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-row__info">1</div>
+                    <div class="table-row__data">
+                        <div class="table-row__cell" contenteditable="">2</div>
+                        <div class="table-row__cell" contenteditable="">3</div>
+                        <div class="table-row__cell" contenteditable="">4</div>
+                    </div>
+                </div> 
+                <div class="table-row">
+                    <div class="table-row__info">2</div>
+                    <div class="table-row__data">
+                        <div class="table-row__cell selected" contenteditable=""></div>
+                        <div class="table-row__cell" contenteditable=""></div>
+                        <div class="table-row__cell" contenteditable=""></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
